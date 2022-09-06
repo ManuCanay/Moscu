@@ -123,7 +123,6 @@ nav ul li a:hover{
     text-decoration: underline;
 }
 
-
 /* FOOTER */
 
 footer{
@@ -143,31 +142,6 @@ footer{
 .footer__icono--sm{
     width: 40px;
     margin: 0px 15px;
-}
-
-/* ESTILO */
-
-.bg-black{
-    background-color: black;
-}
-
-.bg-white{
-    background-color: white;
-}
-
-.bg-yellow{
-    background-color: rgb(228, 184, 72);
-}
-
-
-.bg-gold{
-    background-color: rgba(228, 184, 72, 0.7);
-}
-
-
-.header__img--fluid{
-    width: 100%;
-    height: auto;
 }
 
 /* AGENDA */
@@ -242,3 +216,29 @@ footer{
     font-weight: 100;
     line-height: 2.5rem;
 }
+
+/* ESTILO */
+
+.bg-black{
+    background-color: black;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-yellow{
+    background-color: rgb(228, 184, 72);
+}
+
+
+.bg-gold{
+    background-color: rgba(228, 184, 72, 0.7);
+}
+
+
+.header__img--fluid{
+    width: 100%;
+    height: auto;
+}
+
