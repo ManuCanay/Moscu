@@ -233,14 +233,15 @@ footer{
     background-color: rgba(228, 184, 72, 0.7);
 }
 
-
 .header__img--fluid{
     width: 100%;
     height: auto;
 }
 
+/* ANIMACION */
+
 .scale:hover{
-    transform: scale(115%);
+    transform: scale(110%);
     cursor: pointer;
     transition: transform 1s;
 }
