@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <title>Moscu Espacio Cultural</title>
+  </head>
+
+  <body>
+    <!-- SCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-sm-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Logo Moscú"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+            <span> <img src="src/card-list.svg" alt="Icono Hamburguesa"> </span>
+          </button>
+          
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li id="boton" class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li id="boton" class="nav-item">
+                <a class="nav-link" href="agenda.html">Agenda</a>
+              </li>
+              <li id="boton" class="nav-item">
+                <a class="nav-link" href="carta.html">Carta</a>
+              </li>
+              <li id="boton" class="nav-item">
+                <a class="nav-link" href="ensayo.html">Ensayos</a>
+              </li>
+              <li id="boton" class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+    <!-- END NAV -->
+
+    <!-- HEADER -->
+    <header id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1500">
+            <img src="img/header.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="1500">
+            <img src="img/headeragenda.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="1500">
+            <img src="img/headercarta.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+    </header>
+    <!-- END HEADER -->
+
+    <!-- MAIN -->    
+    <div class="container-fluid" >
+      <article class="row">
+        <main class="bg-black p-2" >
+        <h1>CONTACTO</h1>
+        <p>Contanos tus sugerencias, reserva el espacio para organizar tu evento o la sala de ensayo para practicar con tu banda.<br><strong>Te esperamos!!</strong></p>    
+        </main>
+
+        <section class="py-2 bg-gold" >
+          <div class="container-fluid" >
+            <form>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input mt-4" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Reservar Ensayo</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input mt-4" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Reservar Fecha</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input mt-4" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Sugerencia</label>
+              </div>  
+
+              <div class="row pb-2">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Mail" aria-label="email">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Telefono" aria-label="phone">
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Tus comentarios:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+              </div>
+              <button type="submit" class="btn bg-yellow">Enviar</button>
+            </form>
+          </div>
+
+        </section>        
+        
+
+      </article>  
+    </div>
+
+    <!-- END MAIN -->
+
+    <footer>
+        <div>
+          <p class="footer__letra--formato">SEGUINOS EN NUESTRAS REDES</p>
+        </div>
+        <div>
+          <a href="https://www.facebook.com/MoscuEspacioCultural/" target="_blank">
+            <img src="img/fb.png" alt="Seguinos en Facebook"  class="footer__icono--sm">
+          </a>
+          <a href="https://www.instagram.com/moscuespaciocultural/" target="_blank">
+            <img src="img/ig.png" alt="Seguinos en Instagram"  class="footer__icono--sm">
+          </a>
+          <a href="https://www.youtube.com/channel/UCHWEARe-jtd2mGD58wFlyww" target="_blank">
+            <img src="img/yt.png" alt="Seguinos en Youtube" class="footer__icono--sm">
+          </a>
+      </div>
+    </footer>
+
+  </body>
+</html>

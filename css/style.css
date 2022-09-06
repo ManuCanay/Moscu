@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&family=Roboto:wght@100;400&display=swap');
+html{ font-size: 62.5%; }
+
+*{ 
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center; 
+}
+
+/* ETIQUETAS */ 
+
+h1{
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+    font-weight: 400;
+    color: rgb(228, 184, 72);
+    line-height: 5rem
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 400;
+    color: black;
+    background-color: rgb(228, 184, 72) ;
+    line-height: 5rem;
+}
+
+h3{ 
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgb(228, 184, 72);
+    line-height: 2.5rem;
+}
+
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 2.5rem;
+    margin: 10px;
+}
+
+th{
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(228, 184, 72);
+    line-height: 2rem; 
+}
+
+td{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+    line-height: 2rem;
+}
+
+label{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 10px 10px;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: white;
+    line-height: 2rem;
+}
+
+a{
+    text-decoration: none
+}
+
+/* ELEMENTOS */
+
+body{
+    background-color: black;  
+}
+
+header{
+    grid-area: header;
+    background-color: rgb(228, 184, 72);
+}
+
+main{
+    grid-area: main;
+    background-color: black;
+}
+
+/* NAV */ 
+
+#boton{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    color: black;
+}
+
+
+.nav__logo--width{
+    width: 5px;
+}
+
+.nav__burger--width{
+    width: 25px;
+}
+
+nav ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    color: black;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+
+/* FOOTER */
+
+footer{
+    grid-area: footer;
+    background-color: rgb(228, 184, 72);
+    width: 100vw;
+}
+
+.footer__letra--formato{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: 100;
+    color: black;
+}
+
+.footer__icono--sm{
+    width: 40px;
+    margin: 0px 15px;
+}
+
+/* ESTILO */
+
+.bg-black{
+    background-color: black;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-yellow{
+    background-color: rgb(228, 184, 72);
+}
+
+
+.bg-gold{
+    background-color: rgba(228, 184, 72, 0.7);
+}
+
+
+.header__img--fluid{
+    width: 100%;
+    height: auto;
+}
+
+/* AGENDA */
+
+.agenda__destacado--cuadro{
+    grid-area: destacado;
+    border: solid 5px rgb(228, 184, 72);
+    background-image: url(../img/agenda.jpg);
+    background-size: contain;
+    background-position: 50%;
+}
+
+.agenda__muestra--cuadro{
+    grid-area: muestra;
+    border: solid 5px rgb(228, 184, 72);
+    background-image: url(../img/agenda.jpg);
+    background-size: contain;
+    background-position: 50%;
+    width: 100%;
+}
+
+.agenda__muestras--pintura{    
+    width: 33%;
+    height: auto;
+}
+
+/* CARTA */
+
+.carta__table--ancho{
+    width: 100%;
+    height: auto;
+}
+
+.carta__bebida--cuadro{
+    grid-area: bebida;
+    border: solid 5px rgb(228, 184, 72);
+    margin: 10px;
+}
+
+.carta__comida--cuadro{
+    grid-area: comida;
+    border: solid 5px rgb(228, 184, 72);
+    margin: 10px;
+}
+
+/* ENSAYO */ 
+
+.ensayo__sala1--cuadro{
+    grid-area: sala1;
+    border: solid 5px rgb(228, 184, 72);
+    margin: 0px;
+}
+
+.ensayo__sala2--cuadro{
+    grid-area: sala2;
+    border: solid 5px rgb(228, 184, 72);
+    margin: 0px;
+}
+
+.ensayo__foto--tamaño{
+    width: 90%;
+    height: auto;
+}
+
+.ensayo__lista--estilo{
+    margin: 25px 0px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 2.5rem;
+}
