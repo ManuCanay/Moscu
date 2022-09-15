@@ -1,0 +1,19 @@
+.nav__logo--width{
+    width: 5px;
+}
+
+.nav__burger--width{
+    width: 40px;
+}
+
+nav ul li a{
+    font-family: $secondaryFont;
+    font-size: $textSm;
+    color: $secondaryColor;
+    margin-right: 15px;
+    &:hover{
+        transform: scale(110%);
+        cursor: pointer;
+        transition: transform 1s;
+    }
+}

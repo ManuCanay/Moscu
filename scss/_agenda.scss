@@ -1,0 +1,25 @@
+.agenda__destacado--cuadro{
+    border: solid 5px $mainColor;
+    background-image: url(../img/agenda.jpg);
+    background-size: contain;
+    background-position: 50%;
+}
+
+.agenda__muestra--cuadro{
+    grid-area: muestra;
+    border: solid 5px $mainColor;
+    background-image: url(../img/agenda.jpg);
+    background-size: contain;
+    background-position: 50%;
+    width: 100%;
+}
+
+.agenda__muestras--pintura{    
+    width: 33%;
+    height: auto;
+}
+
+.header__img--fluid{
+    width: 100%;
+    height: auto;
+}

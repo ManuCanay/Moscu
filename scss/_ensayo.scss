@@ -1,0 +1,28 @@
+.ensayo__sala1--cuadro{
+    border: solid 5px $mainColor;
+    margin: 0px;
+    padding: 0px;
+}
+
+.ensayo__sala2--cuadro{
+    grid-area: sala2;
+    border: solid 5px $mainColor;
+    margin: 0px;
+    padding: 0px;
+}
+
+.ensayo__foto--tamaño{
+    width: 90%;
+    height: auto;
+}
+
+.ensayo__lista--estilo{
+    margin: 25px 0px;
+    list-style: none;
+    text-align: center;
+    font-family: $mainFont;
+    color: $keyColor;
+    font-size: $textSm;
+    font-weight: 100;
+    line-height: 2.5rem;
+}

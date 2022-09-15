@@ -1,0 +1,15 @@
+.carta__table--ancho{
+    width: 100%;
+    height: auto;
+}
+
+.carta__bebida--cuadro{
+    border: solid 5px $mainColor;
+    margin: 10px;
+}
+
+.carta__comida--cuadro{
+    grid-area: comida;
+    border: solid 5px $mainColor;
+    margin: 10px;
+}

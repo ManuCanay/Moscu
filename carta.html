@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <title>Moscu Espacio Cultural</title>
+  </head>
+
+  <body>
+    <!-- SCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-sm-top">
+      <div class="container-fluid">
+        <a class="navbar-brand scale" href="index.html"><img src="img/logo.png" alt="Logo Moscú"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+          <span> <img src="src/card-list.svg" alt="Icono Hamburguesa"> </span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li id="boton" class="nav-item">
+              <a class="nav-link scale" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li id="boton" class="nav-item">
+              <a class="nav-link scale" href="agenda.html">Agenda</a>
+            </li>
+            <li id="boton" class="nav-item">
+              <a class="nav-link scale" href="carta.html">Carta</a>
+            </li>
+            <li id="boton" class="nav-item">
+              <a class="nav-link scale" href="ensayo.html">Ensayos</a>
+            </li>
+            <li id="boton" class="nav-item">
+              <a class="nav-link scale" href="contacto.html">Contacto</a>
+            </li>
+        </div>
+      </div>
+    </nav>
+    <!-- END NAV -->
+
+    <!-- HEADER -->
+    <header id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1500">
+            <img src="img/headercarta4.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="1500">
+            <img src="img/headercarta2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="1500">
+            <img src="img/headercarta3.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+    </header>
+    <!-- END HEADER -->
+
+    <!-- MAIN -->    
+    <div class="container-fluid" >
+      <article class="row">
+        <main class="bg-black p-2" >
+        <h1>CARTA</h1>
+        <p>Los mejores tragos, las mas ricas comidas y las mejores bebidas.
+        <br><strong>Veni a pasar una velada inolvidable...</strong></p>  
+        </main>
+
+        <section class="col-sm-12 col-md-6"> 
+          <h2>Bebidas</h2>
+          <table class="carta__table--ancho" border="5px" cellspacing="5px" cellpadding="5px">
+            <tr>
+              <th>Producto</th>
+              <th>Precio</th>
+            </tr>
+            <tr>
+              <td>Gaseosa</td>
+              <td>$300</td>
+            </tr>
+            <tr>
+              <td>Cervezas Nacionales</td>
+              <td>$400</td>
+            </tr>
+            <tr>
+              <td>Cervezas Importadas</td>
+              <td>$600</td>
+            </tr>
+            <tr>
+              <td>Copa de Vino</td>
+              <td>$500</td>
+            </tr>
+            <tr>
+              <td>Vaso de Whisky Johnny Walker Black</td>
+              <td>$750</td>
+            </tr>
+          </table> 
+        </section>
+      
+        <section class="col-sm-12 col-md-6">  
+          <h2>Comidas</h2>
+          <table class="carta__table--ancho" border="5px" cellspacing="5px" cellpadding="5px">
+              <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+              </tr>
+              <tr>
+                <td>Tequeños x3</td>
+                <td>$500</td>
+              </tr>
+              <tr>
+                <td>Empanadas </td>
+                <td>$150c/u</td>
+              </tr>
+              <tr>
+                <td>Porcion de Pizza Muzzarella</td>
+                <td>$150</td>
+              </tr>
+              <tr>
+                <td>Pizza Muzzarella</td>
+                <td>$1.000</td>
+              </tr>
+              <tr>
+                <td>Hamburguesa Completa</td>
+                <td>$1.000</td>
+              </tr>
+          </table>
+        </section>                
+      </article>  
+    </div>
+
+    <!-- END MAIN -->
+
+    <footer>
+        <div>
+          <p class="footer__letra--formato">SEGUINOS EN NUESTRAS REDES</p>
+        </div>
+        <div>
+          <a href="https://www.facebook.com/MoscuEspacioCultural/" target="_blank">
+            <img src="img/fb.png" alt="Seguinos en Facebook"  class="footer__icono--sm">
+          </a>
+          <a href="https://www.instagram.com/moscuespaciocultural/" target="_blank">
+            <img src="img/ig.png" alt="Seguinos en Instagram"  class="footer__icono--sm">
+          </a>
+          <a href="https://www.youtube.com/channel/UCHWEARe-jtd2mGD58wFlyww" target="_blank">
+            <img src="img/yt.png" alt="Seguinos en Youtube" class="footer__icono--sm">
+          </a>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+$mainColor: rgb(228, 184, 72);
+$secondaryColor: black;
+$keyColor: white;
+
+$mainFont: 'Roboto Condensed', sans-serif;
+$secondaryFont: 'Roboto', sans-serif;
+$textLg: 4rem;
+$textMd: 3rem;
+$textSm: 2rem;
+
+html{ font-size: 62.5%; }
+
+*{ 
+    box-sizing: border-box;
+    font-family: $mainFont;
+    text-align: center; 
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    margin: 10px;
+    font-family: $secondaryFont;
+    font-size: $textLg;
+    font-weight: 400;
+    color: $mainColor;
+    margin-top: 0px;
+}
+
+h2{
+    padding: 10px;
+    font-family: $mainFont;
+    font-size: $textLg;
+    font-weight: 200;
+    color: $secondaryColor;
+    background-color: $mainColor;
+    padding-bottom: 15px;
+    
+}
+
+h3{ 
+    margin: 10px;
+    font-family: $secondaryFont;
+    font-size: $textMd;
+    font-weight: 200;
+    color: $mainColor;
+}
+
+p{
+    font-family: $mainFont;
+    color: $keyColor;
+    font-size: $textSm;
+    font-weight: 100;
+}
+
+th{
+    margin: 10px;
+    padding: 10px;
+    font-family: $secondaryFont;
+    font-size: $textMd;
+    font-weight: 400;
+    color: $mainColor;
+    line-height: 2rem; 
+}
+
+td{
+    font-family: $mainFont;
+    padding: 10px;
+    margin: 10px;
+    font-size: $textSm;
+    font-weight: 100;
+    text-align: center;
+    color: $keyColor;
+    line-height: 2rem;
+}
+
+label{
+    font-family: $mainFont;
+    margin: 10px;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: $keyColor;
+    line-height: 2rem;
+}
+
+a{
+    text-decoration: none
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&family=Roboto:wght@100;400&display=swap');
+@import "_commons";
+@import "_nav";
+@import "_agenda";
+@import "_ensayo";
+@import "_carta";
+@import "_contacto";
