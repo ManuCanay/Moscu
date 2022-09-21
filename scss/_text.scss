@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&family=Roboto:wght@100;400&display=swap');
+html{ font-size: 62.5%; }
+
+@mixin textos ($font,$size,$interlineado,$color){
+    font-family: $font;
+    font-size: $size;
+    line-height: $interlineado;
+    color: $color;
+    margin: 10px;
+    padding: 10px;
+}
+
+*{ 
+    box-sizing: border-box;
+    font-family: $mainFont;
+    text-align: center; 
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    @include textos ($secondaryFont,$textLg,3rem ,$mainColor);
+}
+
+h2{
+    @include textos ($mainFont,$textLg,2.5rem ,$secondaryColor);
+    font-weight: 200;
+    background-color: $mainColor;
+    margin: 0px
+}
+
+h3{ 
+    @include textos ($secondaryFont,$textMd,2rem ,$mainColor);
+    margin: 10px;
+    font-weight: 200;
+}
+
+p{
+    @include textos ($mainFont,$textSm,2rem ,$keyColor);
+    font-weight: 100;
+}
+
+th{
+    @include textos ($secondaryFont,$textMd,2rem ,$mainColor);
+    margin: 10px;
+    padding: 10px;
+    font-weight: 400;
+}
+
+td{
+    @extend p;
+    text-align: center;
+
+}
+
+label{
+    @extend p;
+    line-height: 2rem;
+    color: $secondaryColor;
+}
+
+a{
+    text-decoration: none
+}
+
