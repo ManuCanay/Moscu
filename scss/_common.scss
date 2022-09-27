@@ -1,90 +1,56 @@
 body{
-    background-color: map-get($map: $paleta, $key:'dos');  
-}
-
-header{
-    background-color: map-get($map: $paleta, $key:'dos');
-}
-
-main{
-    background-color: map-get($map: $paleta, $key:'dos');
+    background-color: $secondaryColor;  
 }
 
 footer{
     background-color: $mainColor;
-    p{
-    font-family: $mainFont;
-    font-size: $textSm;
-    font-weight: 100;
-    color: black;
-    padding: 0px;
-    }
-    img{
-    width: 30px;
-    margin: 0px 10px;
-    }
-}
-
-.ensayo__sala1--cuadro{
-    border: solid 5px $mainColor;
     margin: 0px;
     padding: 0px;
-}
-
-.ensayo__sala2--cuadro{
-    @extend .ensayo__sala1--cuadro;
-}
-
-.ensayo__foto--tamaño{
-    width: 90%;
-    height: auto;
-}
-
-.ensayo__lista--estilo{
-    margin: 25px 0px;
-    list-style: none;
-    text-align: center;
-    font-family: $mainFont;
-    color: map-get($map: $paleta, $key:'tres');
-    font-size: $textSm;
-    font-weight: 100;
-    line-height: 2.5rem;
+        p{
+        font-family: $mainFont;
+        font-size: $textSm;
+        font-weight: 700;
+        color: $secondaryColor;
+        padding-top: 5px;
+        padding-bottom: 0px;
+    }   
+            img{
+            width: 30px;
+            margin: 0px 5px 5px 5px;
+        }
 }
 
 
+// Clases // 
+
+.text__Bold{
+    font-weight: 700;
+}
 
 .bg-gold{
-    background-color: map-get($map: $paleta, $key:'uno' )
+    background-color: $mainColor;
 }
 
-
-
-.carta__table--ancho{
-    width: 100%;
+.mapa{
+    width: 75%;
     height: auto;
 }
 
-.carta__bebida--cuadro{
-    border: solid 5px $mainColor;
-    margin: 10px;
+.spoty{
+    width: 75%; 
+    height: auto;
+    margin-top: 5%; 
 }
 
-.carta__comida--cuadro{
-    grid-area: comida;
+.cuadro{
     border: solid 5px $mainColor;
-    margin: 10px;
 }
 
 .agenda__destacado--cuadro{
-    border: solid 5px $mainColor;
+    @extend .cuadro;
     background-image: url(../img/agenda.jpg);
     background-size: contain;
     background-position: 50%;
-}
-
-.agenda__muestra--cuadro{
-    @extend .agenda__destacado--cuadro;
-    width: 50%;
 }
 
 .agenda__muestras--pintura{    
@@ -92,9 +58,34 @@ footer{
     height: auto;
 }
 
-.header__img--fluid{
+.carta__table--ancho{
     width: 100%;
     height: auto;
+    border: solid 5px $mainColor;
+    text-align: left;
+}
+
+.ensayo__sala--cuadro{
+    border: solid 5px $mainColor;
+    margin: 0px;
+    padding: 0px;
+}
+
+.ensayo__foto--tamaño{
+    width: 90%;
+    height: auto;
+    margin: 10px;
+}
+
+.ensayo__lista--estilo{
+    margin: 25px 0px;
+    list-style: none;
+    text-align: center;
+    font-family: $mainFont;
+    color: $keyColor;
+    font-size: $textSm;
+    font-weight: 100;
+    line-height: 2.5rem;
 }
 
 

@@ -12,46 +12,51 @@ html {
   padding: 0px;
 }
 
-h1 {
-  font-family: "Roboto", sans-serif;
-  font-size: 4rem;
-  line-height: 3rem;
-  color: rgb(228, 184, 72);
-  margin: 10px;
-  padding: 10px;
-}
-
-h2 {
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 4rem;
-  line-height: 2.5rem;
-  color: black;
-  margin: 10px;
-  padding: 10px;
-  font-weight: 200;
-  background-color: rgb(228, 184, 72);
-  margin: 0px;
-}
-
-h3 {
-  font-family: "Roboto", sans-serif;
-  font-size: 3rem;
-  line-height: 2rem;
-  color: rgb(228, 184, 72);
-  margin: 10px;
-  padding: 10px;
-  margin: 10px;
-  font-weight: 200;
+a {
+  text-decoration: none;
 }
 
 p, label, td {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 2rem;
-  line-height: 2rem;
+  line-height: 2.5rem;
   color: white;
   margin: 10px;
   padding: 10px;
   font-weight: 100;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 5rem;
+  line-height: 4rem;
+  color: rgb(228, 184, 72);
+  margin: 10px;
+  padding: 10px;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 4rem;
+  line-height: 3.5rem;
+  color: black;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(228, 184, 72);
+  margin: 0px;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  line-height: 2.5rem;
+  color: rgb(228, 184, 72);
+  margin: 10px;
+  padding: 10px;
+  margin: 10px;
+  font-weight: 300;
 }
 
 th {
@@ -61,52 +66,84 @@ th {
   color: rgb(228, 184, 72);
   margin: 10px;
   padding: 10px;
-  margin: 10px;
-  padding: 10px;
   font-weight: 400;
+  text-align: left;
 }
 
 td {
-  text-align: center;
+  text-align: left;
 }
 
 label {
+  margin-top: 0px;
   line-height: 2rem;
   color: black;
-}
-
-a {
-  text-decoration: none;
 }
 
 body {
   background-color: black;
 }
 
-header {
-  background-color: black;
-}
-
-main {
-  background-color: black;
-}
-
 footer {
   background-color: rgb(228, 184, 72);
+  margin: 0px;
+  padding: 0px;
 }
 footer p, footer td, footer label {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 2rem;
-  font-weight: 100;
+  font-weight: 700;
   color: black;
-  padding: 0px;
+  padding-top: 5px;
+  padding-bottom: 0px;
 }
 footer img {
   width: 30px;
-  margin: 0px 10px;
+  margin: 0px 5px 5px 5px;
 }
 
-.ensayo__sala1--cuadro, .ensayo__sala2--cuadro {
+.text__Bold {
+  font-weight: 700;
+}
+
+.bg-gold {
+  background-color: rgb(228, 184, 72);
+}
+
+.mapa {
+  width: 75%;
+  height: auto;
+}
+
+.spoty {
+  width: 75%;
+  height: auto;
+  margin-top: 5%;
+}
+
+.cuadro, .agenda__destacado--cuadro {
+  border: solid 5px rgb(228, 184, 72);
+}
+
+.agenda__destacado--cuadro {
+  background-image: url(../img/agenda.jpg);
+  background-size: contain;
+  background-position: 50%;
+}
+
+.agenda__muestras--pintura {
+  width: 33%;
+  height: auto;
+}
+
+.carta__table--ancho {
+  width: 100%;
+  height: auto;
+  border: solid 5px rgb(228, 184, 72);
+  text-align: left;
+}
+
+.ensayo__sala--cuadro {
   border: solid 5px rgb(228, 184, 72);
   margin: 0px;
   padding: 0px;
@@ -115,6 +152,7 @@ footer img {
 .ensayo__foto--tamaño {
   width: 90%;
   height: auto;
+  margin: 10px;
 }
 
 .ensayo__lista--estilo {
@@ -128,53 +166,12 @@ footer img {
   line-height: 2.5rem;
 }
 
-.bg-gold {
-  background-color: rgb(228, 184, 72);
-}
-
-.carta__table--ancho {
-  width: 100%;
-  height: auto;
-}
-
-.carta__bebida--cuadro {
-  border: solid 5px rgb(228, 184, 72);
-  margin: 10px;
-}
-
-.carta__comida--cuadro {
-  grid-area: comida;
-  border: solid 5px rgb(228, 184, 72);
-  margin: 10px;
-}
-
-.agenda__destacado--cuadro, .agenda__muestra--cuadro {
-  border: solid 5px rgb(228, 184, 72);
-  background-image: url(../img/agenda.jpg);
-  background-size: contain;
-  background-position: 50%;
-}
-
-.agenda__muestra--cuadro {
-  width: 50%;
-}
-
-.agenda__muestras--pintura {
-  width: 33%;
-  height: auto;
-}
-
-.header__img--fluid {
-  width: 100%;
-  height: auto;
-}
-
 .nav__logo--width {
   width: 5px;
 }
 
 .nav__burger--width {
-  width: 40px;
+  width: 25px;
 }
 
 nav ul li a {

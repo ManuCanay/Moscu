@@ -18,48 +18,48 @@ html{ font-size: 62.5%; }
     padding: 0px;
 }
 
-h1{
-    @include textos ($secondaryFont,$textLg,3rem ,$mainColor);
-}
-
-h2{
-    @include textos ($mainFont,$textLg,2.5rem ,$secondaryColor);
-    font-weight: 200;
-    background-color: $mainColor;
-    margin: 0px
-}
-
-h3{ 
-    @include textos ($secondaryFont,$textMd,2rem ,$mainColor);
-    margin: 10px;
-    font-weight: 200;
+a{
+    text-decoration: none
 }
 
 p{
-    @include textos ($mainFont,$textSm,2rem ,$keyColor);
+    @include textos ($mainFont,$textSm,2.5rem ,$keyColor);
     font-weight: 100;
+}
+
+h1{
+    @include textos ($secondaryFont,$textXl,4rem ,$mainColor);
+    font-weight: 400;
+}
+
+h2{
+    @include textos ($mainFont,$textLg,3.5rem ,$secondaryColor);
+    background-color: $mainColor;
+    margin: 0px;
+    font-weight: 700;
+}
+
+h3{ 
+    @include textos ($secondaryFont,$textMd,2.5rem ,$mainColor);
+    margin: 10px;
+    font-weight: 300;
 }
 
 th{
     @include textos ($secondaryFont,$textMd,2rem ,$mainColor);
-    margin: 10px;
-    padding: 10px;
     font-weight: 400;
+    text-align: left;
 }
 
 td{
     @extend p;
-    text-align: center;
+    text-align: left;
 
 }
 
 label{
     @extend p;
+    margin-top: 0px;
     line-height: 2rem;
     color: $secondaryColor;
 }
-
-a{
-    text-decoration: none
-}
-

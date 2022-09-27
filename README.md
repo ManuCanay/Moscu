@@ -11,3 +11,9 @@ Cambie los titulos de cada html. <br>
 Chequee la semantica de todas las paginas. <br>
 Sume los alts de las imagenes que faltaban. <br>
 Hice el meta description de cada página. <br>
+27/9 <br>
+Actualicé el HTML utilizando las clases de BS siempre que fuera posible. <br>
+Reescribí el código de diseño completamente de manera que sea mas prolijo y menos redundante <br>
+Mejoré el diseño de los textos para que haya mejor jerarquía de lectura <br>
+
+

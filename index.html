@@ -16,14 +16,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <!-- NAV -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-sm-top">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
         <div class="container-fluid">
           <a class="navbar-brand scale" href="index.html"><img src="img/logo.png" alt="Logo Moscú"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
             <span> <img class="nav__burger--width" src="src/card-list.svg" alt="Icono Hamburguesa"> </span>
           </button>
           
-         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <div class="collapse navbar-collapse sticky-sm-top" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li id="boton" class="nav-item">
                 <a class="nav-link scale" aria-current="page" href="index.html">Home</a>
@@ -47,7 +47,7 @@
 
     <!-- HEADER -->
     <header id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-inner">
+        <div class="carousel-inner w-100">
           <div class="carousel-item active" data-bs-interval="1500">
             <img src="img/header.png" class="d-block w-100" alt="Foto de la barra del bar">
           </div>
@@ -64,18 +64,18 @@
     <!-- MAIN -->    
     <div class="container-fluid" >
       <article class="row">
-      <main class="col-sm-12 col-md-6 bg-black p-4 agenda__destacado--cuadro" >
+      <main class="col-sm-12 col-md-8 p-4 cuadro" >
           <h1>MOSCÚ ESPACIO CULTURAL</h1>
           <p>En Moscú se respira arte.<br> 
           Nuestras instalaciones estan diseñadas para que puedas desarrollar tu pasión. 
           Salas de ensayo, un salón de exposición y un escenario donde actuan los principales referentes del Under Porteño. 
           Además, contamos con un bar/restaurant con una variada oferta en cocktails y comidas.<br> 
-          <span class="text__bold">Acercate a conocernos!!</span></p>
-          <img class="w-100" src="./img/headeragenda3.png" alt="Imagen de un bajista tocando">                
+          <span class="text__Bold"><strong>Vení a conocernos!!</strong></span></p> </p>
+          <img class="w-100 rounded" src="./img/headeragenda3.png" alt="Imagen de un bajista tocando">                
       </main>
 
-      <aside class="col-sm-12 col-md-6 p-0 agenda__destacado--cuadro">
-          <a href="agenda.html"> <h2>AGENDA</h2> </a>
+      <aside class="col-sm-12 col-md-4 p-0 agenda__destacado--cuadro">
+          <a href="agenda.html"> <h2 class="pb-4">AGENDA</h2> </a>
               <h3>Jueves</h3>
               <p>20hs - Cinema Paradiso: Pulp Fiction</p>
               <p>23hs - Jam Session</p>
@@ -88,10 +88,10 @@
               <p>21hs - Sierranegra</p>
       </aside>
 
-      <section class="p-0 agenda__destacado--cuadro">
-          <h2>COMO LLEGAR</h2>
+      <section class="p-0 cuadro">
+          <h2 class="pb-4" >COMO LLEGAR</h2>
           <p><strong>Av. Cordoba 4335, Palermo.</strong></p>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13137.351845866571!2d-58.427278!3d-34.5956146!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x32c4044fa7b60ffa!2sMOSC%C3%9A%20Espacio%20Cultural!5e0!3m2!1ses-419!2sar!4v1659909239113!5m2!1ses-419!2sar" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe class="mapa rounded" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13137.351845866571!2d-58.427278!3d-34.5956146!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x32c4044fa7b60ffa!2sMOSC%C3%9A%20Espacio%20Cultural!5e0!3m2!1ses-419!2sar!4v1659909239113!5m2!1ses-419!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </section>
     </article>  
     </div>
@@ -100,7 +100,7 @@
 
     <footer>
         <div>
-          <p class="footer__letra--formato">SEGUINOS EN NUESTRAS REDES</p>
+          <p>SEGUINOS EN NUESTRAS REDES</p>
         </div>
         <div>
           <a href="https://www.facebook.com/MoscuEspacioCultural/" target="_blank">
